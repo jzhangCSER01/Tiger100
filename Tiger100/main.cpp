@@ -23,6 +23,8 @@ int main()
 	* bottom 矩形底部 y 坐标
 	*/
 	//绘制图形
+	//设置填充颜色
+	setfillcolor(RED);
 	solidrectangle(10, 10, 10 + 20, 10 + 20);
 
 	getchar();
